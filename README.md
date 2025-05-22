@@ -29,13 +29,7 @@ If you don't have a local GPU, you can use:
    cd <repository-name>
    ```
 
-2. **Create required directories**
-   ```bash
-   mkdir chromadb  # for vector database files
-   mkdir rtdocs    # for ReadTheDocs documentation
-   ```
-
-3. **Download Documentation**
+2. **Download Documentation**
    ```bash
    # Download Hyperledger Fabric documentation
    wget -r -A.html -P rtdocs https://hyperledger-fabric.readthedocs.io/en/release-2.5/
@@ -55,7 +49,7 @@ If you don't have a local GPU, you can use:
    ls -la rtdocs/hyperledger-fabric.readthedocs.io/en/release-2.5
    ```
 
-4. **Create and activate a virtual environment**
+3. **Create and activate a virtual environment**
    ```bash
    # Windows
    python -m venv .venv
@@ -66,12 +60,12 @@ If you don't have a local GPU, you can use:
    source .venv/bin/activate
    ```
 
-5. **Install dependencies**
+4. **Install dependencies**
    ```bash
    pip install -r requirements.txt
    ```
 
-6. **Set up environment variables**
+5. **Set up environment variables**
    Create a `.env` file in the `app` directory with the following variables:
    ```env
    # API Configuration
@@ -94,7 +88,7 @@ If you don't have a local GPU, you can use:
    RESPONSE_AGENT_TEMPERATURE=0.7
    ```
 
-7. **Process Documentation**
+6. **Process Documentation**
    ```bash
    # Navigate to the scripts directory
    cd app/scripts
@@ -107,7 +101,7 @@ If you don't have a local GPU, you can use:
    cat processed_docs.json | head -n 20
    ```
 
-8. **Start the server**
+7. **Start the server**
    ```bash
    # From the project root directory (where app folder is located)
    cd /path/to/project/root
