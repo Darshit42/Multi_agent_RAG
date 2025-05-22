@@ -1,5 +1,3 @@
-# Hyperledger Labs AIFAQ Prototype
-
 ### Architecture
 
 The system uses RAG (Retrieval Augmented Generation) for question answering.
