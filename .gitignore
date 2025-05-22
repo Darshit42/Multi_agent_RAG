@@ -1,4 +1,3 @@
-# Python
 __pycache__/
 *.py[cod]
 *$py.class
@@ -20,7 +19,6 @@ wheels/
 .installed.cfg
 *.egg
 
-# Virtual Environment
 .env
 .venv
 env/
@@ -33,12 +31,9 @@ ENV/
 *.swp
 *.swo
 
-# Project specific
 app/scripts/processed_docs.json
 app/scripts/rtdocs/
-chromadb/
 *.log
 
-# OS specific
 .DS_Store
 Thumbs.db 
