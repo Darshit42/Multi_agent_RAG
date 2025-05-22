@@ -2,7 +2,7 @@
 
 ### Architecture
 
-The system uses RAG (Retrieval Augmented Generation) for question answering, improving LLM responses by incorporating knowledge from external databases (vector database).
+The system uses RAG (Retrieval Augmented Generation) for question answering.
 
 Two main workflows:
 1. **Data Ingestion Workflow**: Loads context documents and creates a vector database
