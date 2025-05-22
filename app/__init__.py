@@ -1,0 +1,3 @@
+"""
+Hyperledger Labs AIFAQ Prototype
+""" 
